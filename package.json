@@ -1,0 +1,9 @@
+{
+  "name": "TestProject",
+  "version": "1.0.0",
+  "description": "A new project",
+  "scripts": {
+    "watch": "./watch-and-deploy.sh",
+    "deploy": "git add . && git commit -m \"update: $npm_config_message\" && git push origin main"
+  }
+}
